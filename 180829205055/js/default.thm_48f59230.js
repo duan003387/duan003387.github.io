@@ -10,7 +10,7 @@ window.skins={};
                 window.generateEUI = {};
                 generateEUI.paths = {};
                 generateEUI.styles = undefined;
-                generateEUI.skins = {"eui.Button":"resource/eui_skins/ButtonSkin.exml","eui.CheckBox":"resource/eui_skins/CheckBoxSkin.exml","eui.HScrollBar":"resource/eui_skins/HScrollBarSkin.exml","eui.HSlider":"resource/eui_skins/HSliderSkin.exml","eui.Panel":"resource/eui_skins/PanelSkin.exml","eui.TextInput":"resource/eui_skins/TextInputSkin.exml","eui.ProgressBar":"resource/eui_skins/ProgressBarSkin.exml","eui.RadioButton":"resource/eui_skins/RadioButtonSkin.exml","eui.Scroller":"resource/eui_skins/ScrollerSkin.exml","eui.ToggleSwitch":"resource/eui_skins/ToggleSwitchSkin.exml","eui.VScrollBar":"resource/eui_skins/VScrollBarSkin.exml","eui.VSlider":"resource/eui_skins/VSliderSkin.exml","eui.ItemRenderer":"resource/eui_skins/ItemRendererSkin.exml","page1":"resource/myPage/page1.exml"};generateEUI.paths['resource/eui_skins/ButtonSkin.exml'] = window.skins.ButtonSkin = (function (_super) {
+                generateEUI.skins = {"eui.Button":"resource/eui_skins/ButtonSkin.exml","eui.CheckBox":"resource/eui_skins/CheckBoxSkin.exml","eui.HScrollBar":"resource/eui_skins/HScrollBarSkin.exml","eui.HSlider":"resource/eui_skins/HSliderSkin.exml","eui.Panel":"resource/eui_skins/PanelSkin.exml","eui.TextInput":"resource/eui_skins/TextInputSkin.exml","eui.ProgressBar":"resource/eui_skins/ProgressBarSkin.exml","eui.RadioButton":"resource/eui_skins/RadioButtonSkin.exml","eui.Scroller":"resource/eui_skins/ScrollerSkin.exml","eui.ToggleSwitch":"resource/eui_skins/ToggleSwitchSkin.exml","eui.VScrollBar":"resource/eui_skins/VScrollBarSkin.exml","eui.VSlider":"resource/eui_skins/VSliderSkin.exml","eui.ItemRenderer":"resource/eui_skins/ItemRendererSkin.exml","page1":"resource/myPage/page1.exml","page2":"resource/myPage/page2.exml"};generateEUI.paths['resource/eui_skins/ButtonSkin.exml'] = window.skins.ButtonSkin = (function (_super) {
 	__extends(ButtonSkin, _super);
 	function ButtonSkin() {
 		_super.call(this);
@@ -636,7 +636,7 @@ window.skins={};
 	__extends(page1Skin, _super);
 	function page1Skin() {
 		_super.call(this);
-		this.skinParts = ["star1","star2","light_1","icon1","icon2","dna","sanjiao1","guandao1","guandao2","guandao3","quanquan","littleHand","btn1_light1","btn1_light2","group","light","circle1","circle","baojing","people","imgMask","p1","p2","p3","p4","three","t1","t2","t3","t4","t5","t6","t7","t8","txtGroup1","zhe","txtGroup2","dian","txtGroup3","numa","txtGroup4","txtMask1","txtMask2","txtMask3","saomiao","ranshao","ranshaoMask","shenzhun","yice","imgTest","imgTest_","page4_icon4","page4_Star","wendu_81","page4_icon5","page4_icon1","page4_icon2","page4_icon3","panel1"];
+		this.skinParts = ["star1","star2","light_1","icon1","icon2","dna","sanjiao1","guandao1","guandao2","guandao3","quanquan","littleHand","btn1_light1","btn1_light2","group","light","circle","baojing","people","imgMask","p1","p2","p3","p4","p5","p6","three","t1","t2","t3","t4","t5","t6","t7","t8","zhe","dian","numa","txtGroup1","txtGroup4","saomiao","ranshao","ranshaoMask","shenzhun","yice","imgTest","imgTest_","page4_icon4","page4_Star","wendu_81","page4_icon5","page4_icon1","page4_icon2","page4_icon3","panel1"];
 		
 		this.height = 1136;
 		this.width = 640;
@@ -651,7 +651,7 @@ window.skins={};
 		t.width = 640;
 		t.x = 0;
 		t.y = 0;
-		t.elementsContent = [this._Image1_i(),this._Image2_i(),this._Image3_i(),this._Image4_i(),this.star1_i(),this.star2_i(),this.light_1_i(),this.icon1_i(),this.icon2_i(),this.dna_i(),this.sanjiao1_i(),this._Image5_i(),this._Image6_i(),this._Image7_i(),this._Image8_i(),this.guandao1_i(),this.guandao2_i(),this.guandao3_i(),this.group_i(),this.light_i(),this.circle_i(),this.baojing_i(),this.people_i(),this.imgMask_i(),this.p1_i(),this.p2_i(),this.p3_i(),this.p4_i(),this.three_i(),this.txtGroup1_i(),this.txtGroup2_i(),this.txtGroup3_i(),this.txtGroup4_i(),this.txtMask1_i(),this.txtMask2_i(),this.txtMask3_i(),this._Image44_i(),this.saomiao_i(),this._Image45_i(),this.ranshao_i(),this.ranshaoMask_i(),this.shenzhun_i(),this.yice_i(),this.imgTest_i(),this.imgTest__i(),this.page4_icon4_i(),this.page4_Star_i(),this.wendu_81_i(),this.page4_icon5_i(),this.page4_icon1_i(),this.page4_icon2_i(),this._Image46_i(),this.page4_icon3_i()];
+		t.elementsContent = [this._Image1_i(),this._Image2_i(),this._Image3_i(),this._Image4_i(),this.star1_i(),this.star2_i(),this.light_1_i(),this.icon1_i(),this.icon2_i(),this.dna_i(),this.sanjiao1_i(),this._Image5_i(),this._Image6_i(),this._Image7_i(),this._Image8_i(),this.guandao1_i(),this.guandao2_i(),this.guandao3_i(),this.group_i(),this.light_i(),this.circle_i(),this.baojing_i(),this.people_i(),this.imgMask_i(),this.p1_i(),this.p2_i(),this.p3_i(),this.p4_i(),this.p5_i(),this.p6_i(),this.three_i(),this.txtGroup1_i(),this.txtGroup4_i(),this._Image57_i(),this.saomiao_i(),this._Image58_i(),this.ranshao_i(),this.ranshaoMask_i(),this.shenzhun_i(),this.yice_i(),this.imgTest_i(),this.imgTest__i(),this.page4_icon4_i(),this.page4_Star_i(),this.wendu_81_i(),this.page4_icon5_i(),this.page4_icon1_i(),this.page4_icon2_i(),this._Image59_i(),this.page4_icon3_i()];
 		return t;
 	};
 	_proto._Image1_i = function () {
@@ -828,9 +828,10 @@ window.skins={};
 	_proto.guandao3_i = function () {
 		var t = new eui.Image();
 		this.guandao3 = t;
+		t.height = 802;
 		t.source = "page1_1_json.p1_height_3_png";
 		t.x = 286;
-		t.y = -3734;
+		t.y = -3203;
 		return t;
 	};
 	_proto.group_i = function () {
@@ -943,66 +944,128 @@ window.skins={};
 		t.width = 200;
 		t.x = 220;
 		t.y = -813;
-		t.elementsContent = [this._Image13_i(),this._Image14_i(),this._Image15_i(),this._Image16_i(),this.circle1_i()];
+		t.elementsContent = [this._Image13_i(),this._Image14_i(),this._Image15_i(),this._Image16_i(),this._Image17_i(),this._Image18_i(),this._Image19_i(),this._Image20_i(),this._Image21_i(),this._Image22_i(),this._Image23_i(),this._Image24_i(),this._Image25_i(),this._Image26_i(),this._Image27_i(),this._Image28_i(),this._Image29_i()];
 		return t;
 	};
 	_proto._Image13_i = function () {
 		var t = new eui.Image();
-		t.horizontalCenter = 4;
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "circle_json.circle0_bg_png";
-		t.x = -216;
-		t.y = 46;
+		t.anchorOffsetX = 67;
+		t.anchorOffsetY = 66;
+		t.horizontalCenter = 0;
+		t.source = "circle_json.circle0_1_png";
+		t.y = 80;
 		return t;
 	};
 	_proto._Image14_i = function () {
 		var t = new eui.Image();
-		t.anchorOffsetX = 182;
-		t.anchorOffsetY = 182;
-		t.skewX = 80;
-		t.skewY = 10;
-		t.source = "circle_json.circle0_13_png";
-		t.x = 93.82;
-		t.y = 225.85;
+		t.source = "circle_json.circle0_11_png";
+		t.x = 20;
+		t.y = 65;
 		return t;
 	};
 	_proto._Image15_i = function () {
 		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "circle_json.circle0_1_png";
-		t.visible = false;
-		t.x = -140;
-		t.y = 33;
+		t.source = "circle_json.circle0_13_png";
+		t.x = 40;
+		t.y = 13;
 		return t;
 	};
 	_proto._Image16_i = function () {
 		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "circle_json.circle0_17_png";
-		t.visible = false;
-		t.x = -105.32000000000001;
-		t.y = 1136;
+		t.source = "circle_json.circle0_14_png";
+		t.x = 10;
+		t.y = 53;
 		return t;
 	};
-	_proto.circle1_i = function () {
+	_proto._Image17_i = function () {
 		var t = new eui.Image();
-		this.circle1 = t;
-		t.anchorOffsetX = 315;
-		t.anchorOffsetY = 315;
-		t.height = 500;
-		t.rotation = 0;
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.skewX = 80;
-		t.skewY = 10;
-		t.smoothing = true;
+		t.source = "circle_json.circle0_15_png";
+		t.x = 46;
+		t.y = 21;
+		return t;
+	};
+	_proto._Image18_i = function () {
+		var t = new eui.Image();
+		t.source = "circle_json.circle0_16_png";
+		t.x = 14;
+		t.y = 37;
+		return t;
+	};
+	_proto._Image19_i = function () {
+		var t = new eui.Image();
+		t.source = "circle_json.circle0_17_png";
+		t.x = -100;
+		t.y = -120;
+		return t;
+	};
+	_proto._Image20_i = function () {
+		var t = new eui.Image();
 		t.source = "circle_json.circle0_18_png";
-		t.width = 500;
-		t.x = 100;
-		t.y = 251;
+		t.x = 10;
+		t.y = 35;
+		return t;
+	};
+	_proto._Image21_i = function () {
+		var t = new eui.Image();
+		t.source = "circle_json.circle0_2_png";
+		t.x = 54;
+		t.y = 11;
+		return t;
+	};
+	_proto._Image22_i = function () {
+		var t = new eui.Image();
+		t.source = "circle_json.circle0_3_png";
+		t.x = 14;
+		t.y = 35;
+		return t;
+	};
+	_proto._Image23_i = function () {
+		var t = new eui.Image();
+		t.source = "circle_json.circle0_4_png";
+		t.x = 60;
+		t.y = 15;
+		return t;
+	};
+	_proto._Image24_i = function () {
+		var t = new eui.Image();
+		t.source = "circle_json.circle0_5_png";
+		t.x = 32;
+		t.y = 37;
+		return t;
+	};
+	_proto._Image25_i = function () {
+		var t = new eui.Image();
+		t.source = "circle_json.circle0_6_png";
+		t.x = 20;
+		t.y = 13;
+		return t;
+	};
+	_proto._Image26_i = function () {
+		var t = new eui.Image();
+		t.source = "circle_json.circle0_7_png";
+		t.x = 10;
+		t.y = 31;
+		return t;
+	};
+	_proto._Image27_i = function () {
+		var t = new eui.Image();
+		t.source = "circle_json.circle0_8_png";
+		t.x = 34;
+		t.y = 21;
+		return t;
+	};
+	_proto._Image28_i = function () {
+		var t = new eui.Image();
+		t.source = "circle_json.circle0_9_png";
+		t.x = 16;
+		t.y = 21;
+		return t;
+	};
+	_proto._Image29_i = function () {
+		var t = new eui.Image();
+		t.source = "circle_json.circle0_bg_png";
+		t.x = 46;
+		t.y = 9;
 		return t;
 	};
 	_proto.baojing_i = function () {
@@ -1087,6 +1150,26 @@ window.skins={};
 		t.y = -1294.18;
 		return t;
 	};
+	_proto.p5_i = function () {
+		var t = new eui.Image();
+		this.p5 = t;
+		t.scaleX = 0;
+		t.scaleY = 0;
+		t.source = "page1_2_json.p1_icon2_5_png";
+		t.x = 413.18;
+		t.y = -1494;
+		return t;
+	};
+	_proto.p6_i = function () {
+		var t = new eui.Image();
+		this.p6 = t;
+		t.scaleX = 0;
+		t.scaleY = 0;
+		t.source = "page1_2_json.p1_icon2_6_png";
+		t.x = 18;
+		t.y = -1509;
+		return t;
+	};
 	_proto.three_i = function () {
 		var t = new eui.Image();
 		this.three = t;
@@ -1096,7 +1179,7 @@ window.skins={};
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_prop2_png";
 		t.x = 0;
-		t.y = -1817;
+		t.y = -1828;
 		return t;
 	};
 	_proto.txtGroup1_i = function () {
@@ -1110,7 +1193,7 @@ window.skins={};
 		t.width = 640;
 		t.x = 27.27;
 		t.y = -1681;
-		t.elementsContent = [this.t1_i(),this.t2_i(),this.t3_i(),this.t4_i(),this.t5_i(),this.t6_i(),this.t7_i(),this.t8_i()];
+		t.elementsContent = [this.t1_i(),this.t2_i(),this.t3_i(),this.t4_i(),this.t5_i(),this.t6_i(),this.t7_i(),this.t8_i(),this.zhe_i(),this._Image30_i(),this._Image31_i(),this._Image32_i(),this._Image33_i(),this._Image34_i(),this._Image35_i(),this.dian_i(),this._Image36_i(),this._Image37_i(),this._Image38_i(),this.numa_i(),this._Image39_i(),this._Image40_i(),this._Image41_i(),this._Image42_i(),this._Image43_i(),this._Image44_i(),this._Image45_i(),this._Image46_i(),this._Image47_i(),this._Image48_i(),this._Image49_i(),this._Image50_i(),this._Image51_i(),this._Image52_i(),this._Image53_i(),this._Image54_i(),this._Image55_i(),this._Image56_i()];
 		return t;
 	};
 	_proto.t1_i = function () {
@@ -1119,8 +1202,9 @@ window.skins={};
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_1_png";
+		t.visible = false;
 		t.x = 40;
-		t.y = 9;
+		t.y = -100;
 		return t;
 	};
 	_proto.t2_i = function () {
@@ -1129,8 +1213,9 @@ window.skins={};
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_2_png";
+		t.visible = false;
 		t.x = 60;
-		t.y = 9;
+		t.y = -100;
 		return t;
 	};
 	_proto.t3_i = function () {
@@ -1139,8 +1224,9 @@ window.skins={};
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_3_png";
+		t.visible = false;
 		t.x = 80;
-		t.y = 9;
+		t.y = -100;
 		return t;
 	};
 	_proto.t4_i = function () {
@@ -1149,8 +1235,9 @@ window.skins={};
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_4_png";
+		t.visible = false;
 		t.x = 100;
-		t.y = 9;
+		t.y = -100;
 		return t;
 	};
 	_proto.t5_i = function () {
@@ -1159,8 +1246,9 @@ window.skins={};
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_5_png";
+		t.visible = false;
 		t.x = 120;
-		t.y = 9;
+		t.y = -100;
 		return t;
 	};
 	_proto.t6_i = function () {
@@ -1169,8 +1257,9 @@ window.skins={};
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_6_png";
+		t.visible = false;
 		t.x = 140;
-		t.y = 9;
+		t.y = -100;
 		return t;
 	};
 	_proto.t7_i = function () {
@@ -1179,8 +1268,9 @@ window.skins={};
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_7_png";
+		t.visible = false;
 		t.x = 160;
-		t.y = 9;
+		t.y = -100;
 		return t;
 	};
 	_proto.t8_i = function () {
@@ -1189,22 +1279,9 @@ window.skins={};
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_8_png";
+		t.visible = false;
 		t.x = 180;
-		t.y = 9;
-		return t;
-	};
-	_proto.txtGroup2_i = function () {
-		var t = new eui.Group();
-		this.txtGroup2 = t;
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.height = 60;
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.width = 640;
-		t.x = 37.269999999999996;
-		t.y = -1617;
-		t.elementsContent = [this.zhe_i(),this._Image17_i(),this._Image18_i(),this._Image19_i(),this._Image20_i(),this._Image21_i(),this._Image22_i()];
+		t.y = -100;
 		return t;
 	};
 	_proto.zhe_i = function () {
@@ -1213,76 +1290,69 @@ window.skins={};
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_9_png";
-		t.x = 30;
-		t.y = -45;
+		t.visible = false;
+		t.x = 40;
+		t.y = -100;
 		return t;
 	};
-	_proto._Image17_i = function () {
+	_proto._Image30_i = function () {
 		var t = new eui.Image();
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_10_png";
-		t.x = 50;
-		t.y = -45;
+		t.visible = false;
+		t.x = 60;
+		t.y = -100;
 		return t;
 	};
-	_proto._Image18_i = function () {
+	_proto._Image31_i = function () {
 		var t = new eui.Image();
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_11_png";
-		t.x = 70;
-		t.y = -45;
+		t.visible = false;
+		t.x = 80;
+		t.y = -100;
 		return t;
 	};
-	_proto._Image19_i = function () {
+	_proto._Image32_i = function () {
 		var t = new eui.Image();
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_12_png";
-		t.x = 90;
-		t.y = -45;
+		t.visible = false;
+		t.x = 100;
+		t.y = -100;
 		return t;
 	};
-	_proto._Image20_i = function () {
+	_proto._Image33_i = function () {
 		var t = new eui.Image();
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_13_png";
-		t.x = 110;
-		t.y = -45;
+		t.visible = false;
+		t.x = 119.99999999999999;
+		t.y = -100;
 		return t;
 	};
-	_proto._Image21_i = function () {
+	_proto._Image34_i = function () {
 		var t = new eui.Image();
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_14_png";
-		t.x = 130;
-		t.y = -45;
+		t.visible = false;
+		t.x = 139.99999999999997;
+		t.y = -100;
 		return t;
 	};
-	_proto._Image22_i = function () {
+	_proto._Image35_i = function () {
 		var t = new eui.Image();
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_15_png";
-		t.x = 150;
-		t.y = -45;
-		return t;
-	};
-	_proto.txtGroup3_i = function () {
-		var t = new eui.Group();
-		this.txtGroup3 = t;
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.height = 60;
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.width = 640;
-		t.x = 37.269999999999996;
-		t.y = -1550;
-		t.elementsContent = [this.dian_i(),this._Image23_i(),this._Image24_i(),this._Image25_i()];
+		t.visible = false;
+		t.x = 159.99999999999997;
+		t.y = -100;
 		return t;
 	};
 	_proto.dian_i = function () {
@@ -1291,49 +1361,39 @@ window.skins={};
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_16_png";
-		t.x = 82.73;
-		t.y = -104;
+		t.visible = false;
+		t.x = 92.73;
+		t.y = -100;
 		return t;
 	};
-	_proto._Image23_i = function () {
+	_proto._Image36_i = function () {
 		var t = new eui.Image();
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_17_png";
-		t.x = 102.73;
-		t.y = -104;
+		t.visible = false;
+		t.x = 112.73;
+		t.y = -100;
 		return t;
 	};
-	_proto._Image24_i = function () {
+	_proto._Image37_i = function () {
 		var t = new eui.Image();
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_18_png";
-		t.x = 122.73;
-		t.y = -104;
+		t.visible = false;
+		t.x = 132.73;
+		t.y = -100;
 		return t;
 	};
-	_proto._Image25_i = function () {
+	_proto._Image38_i = function () {
 		var t = new eui.Image();
 		t.scaleX = 1;
 		t.scaleY = 1;
 		t.source = "page1_2_json.p1_text2_19_png";
-		t.x = 142.73000000000002;
-		t.y = -104;
-		return t;
-	};
-	_proto.txtGroup4_i = function () {
-		var t = new eui.Group();
-		this.txtGroup4 = t;
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.height = 62.79;
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.width = 640;
-		t.x = 37.269999999999996;
-		t.y = -2277;
-		t.elementsContent = [this.numa_i(),this._Image26_i(),this._Image27_i(),this._Image28_i(),this._Image29_i(),this._Image30_i(),this._Image31_i(),this._Image32_i(),this._Image33_i(),this._Image34_i(),this._Image35_i(),this._Image36_i(),this._Image37_i(),this._Image38_i(),this._Image39_i(),this._Image40_i(),this._Image41_i(),this._Image42_i(),this._Image43_i()];
+		t.visible = false;
+		t.x = 152.73;
+		t.y = -100;
 		return t;
 	};
 	_proto.numa_i = function () {
@@ -1345,231 +1405,206 @@ window.skins={};
 		t.source = "page1_2_json.p1_text3_1_png";
 		t.visible = false;
 		t.width = 446;
-		t.x = 52;
-		t.y = 70;
-		return t;
-	};
-	_proto._Image26_i = function () {
-		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_2_png";
-		t.visible = false;
-		t.x = 52;
-		t.y = 70;
-		return t;
-	};
-	_proto._Image27_i = function () {
-		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_3_png";
-		t.visible = false;
-		t.x = 52;
-		t.y = 70;
-		return t;
-	};
-	_proto._Image28_i = function () {
-		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_4_png";
-		t.visible = false;
-		t.x = 52;
-		t.y = 70;
-		return t;
-	};
-	_proto._Image29_i = function () {
-		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_5_png";
-		t.visible = false;
-		t.x = 52;
-		t.y = 70;
-		return t;
-	};
-	_proto._Image30_i = function () {
-		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_6_png";
-		t.visible = false;
-		t.x = 52;
-		t.y = 70;
-		return t;
-	};
-	_proto._Image31_i = function () {
-		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_7_png";
-		t.visible = false;
-		t.x = 52;
-		t.y = 70;
-		return t;
-	};
-	_proto._Image32_i = function () {
-		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_8_png";
-		t.visible = false;
-		t.x = 52;
-		t.y = 70;
-		return t;
-	};
-	_proto._Image33_i = function () {
-		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_9_png";
-		t.visible = false;
-		t.x = 52;
-		t.y = 70;
-		return t;
-	};
-	_proto._Image34_i = function () {
-		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_10_png";
-		t.visible = false;
-		t.x = 56.73;
-		t.y = 76;
-		return t;
-	};
-	_proto._Image35_i = function () {
-		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_11_png";
-		t.visible = false;
-		t.x = 56.73;
-		t.y = 76;
-		return t;
-	};
-	_proto._Image36_i = function () {
-		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_12_png";
-		t.visible = false;
-		t.x = 56.73;
-		t.y = 76;
-		return t;
-	};
-	_proto._Image37_i = function () {
-		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_13_png";
-		t.visible = false;
-		t.x = 56.73;
-		t.y = 76;
-		return t;
-	};
-	_proto._Image38_i = function () {
-		var t = new eui.Image();
-		t.scaleX = 1;
-		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_14_png";
-		t.visible = false;
-		t.x = 58.73;
-		t.y = 76;
+		t.x = 62;
+		t.y = -526;
 		return t;
 	};
 	_proto._Image39_i = function () {
 		var t = new eui.Image();
 		t.scaleX = 1;
 		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_15_png";
+		t.source = "page1_2_json.p1_text3_2_png";
 		t.visible = false;
-		t.x = 58.73;
-		t.y = 76;
+		t.x = 62;
+		t.y = -526;
 		return t;
 	};
 	_proto._Image40_i = function () {
 		var t = new eui.Image();
 		t.scaleX = 1;
 		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_16_png";
+		t.source = "page1_2_json.p1_text3_3_png";
 		t.visible = false;
-		t.x = 59.73;
-		t.y = 76;
+		t.x = 62;
+		t.y = -526;
 		return t;
 	};
 	_proto._Image41_i = function () {
 		var t = new eui.Image();
 		t.scaleX = 1;
 		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_17_png";
+		t.source = "page1_2_json.p1_text3_4_png";
 		t.visible = false;
-		t.width = 424;
-		t.x = 76.73;
-		t.y = 76;
+		t.x = 62;
+		t.y = -526;
 		return t;
 	};
 	_proto._Image42_i = function () {
 		var t = new eui.Image();
 		t.scaleX = 1;
 		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_18_png";
+		t.source = "page1_2_json.p1_text3_5_png";
 		t.visible = false;
-		t.x = 62.73;
-		t.y = 76;
+		t.x = 62;
+		t.y = -526;
 		return t;
 	};
 	_proto._Image43_i = function () {
 		var t = new eui.Image();
 		t.scaleX = 1;
 		t.scaleY = 1;
-		t.source = "page1_2_json.p1_text3_19_png";
+		t.source = "page1_2_json.p1_text3_6_png";
 		t.visible = false;
-		t.x = 63.73;
-		t.y = 76;
-		return t;
-	};
-	_proto.txtMask1_i = function () {
-		var t = new eui.Image();
-		this.txtMask1 = t;
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.height = 94;
-		t.source = "bg_jpg";
-		t.visible = false;
-		t.width = 640;
-		t.x = -640;
-		t.y = -1690;
-		return t;
-	};
-	_proto.txtMask2_i = function () {
-		var t = new eui.Image();
-		this.txtMask2 = t;
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.height = 94;
-		t.source = "bg_jpg";
-		t.visible = false;
-		t.width = 640;
-		t.x = -640;
-		t.y = -1644;
-		return t;
-	};
-	_proto.txtMask3_i = function () {
-		var t = new eui.Image();
-		this.txtMask3 = t;
-		t.anchorOffsetX = 0;
-		t.anchorOffsetY = 0;
-		t.height = 94;
-		t.source = "bg_jpg";
-		t.visible = false;
-		t.width = 640;
-		t.x = -640;
-		t.y = -1562;
+		t.x = 62;
+		t.y = -526;
 		return t;
 	};
 	_proto._Image44_i = function () {
+		var t = new eui.Image();
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "page1_2_json.p1_text3_7_png";
+		t.visible = false;
+		t.x = 62;
+		t.y = -526;
+		return t;
+	};
+	_proto._Image45_i = function () {
+		var t = new eui.Image();
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "page1_2_json.p1_text3_8_png";
+		t.visible = false;
+		t.x = 62;
+		t.y = -526;
+		return t;
+	};
+	_proto._Image46_i = function () {
+		var t = new eui.Image();
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "page1_2_json.p1_text3_9_png";
+		t.visible = false;
+		t.x = 62;
+		t.y = -526;
+		return t;
+	};
+	_proto._Image47_i = function () {
+		var t = new eui.Image();
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "page1_2_json.p1_text3_10_png";
+		t.visible = false;
+		t.x = 66.73;
+		t.y = -520;
+		return t;
+	};
+	_proto._Image48_i = function () {
+		var t = new eui.Image();
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "page1_2_json.p1_text3_11_png";
+		t.visible = false;
+		t.x = 66.73;
+		t.y = -520;
+		return t;
+	};
+	_proto._Image49_i = function () {
+		var t = new eui.Image();
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "page1_2_json.p1_text3_12_png";
+		t.visible = false;
+		t.x = 66.73;
+		t.y = -520;
+		return t;
+	};
+	_proto._Image50_i = function () {
+		var t = new eui.Image();
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "page1_2_json.p1_text3_13_png";
+		t.visible = false;
+		t.x = 66.73;
+		t.y = -520;
+		return t;
+	};
+	_proto._Image51_i = function () {
+		var t = new eui.Image();
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "page1_2_json.p1_text3_14_png";
+		t.visible = false;
+		t.x = 68.73;
+		t.y = -520;
+		return t;
+	};
+	_proto._Image52_i = function () {
+		var t = new eui.Image();
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "page1_2_json.p1_text3_15_png";
+		t.visible = false;
+		t.x = 68.73;
+		t.y = -520;
+		return t;
+	};
+	_proto._Image53_i = function () {
+		var t = new eui.Image();
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "page1_2_json.p1_text3_16_png";
+		t.visible = false;
+		t.x = 69.73;
+		t.y = -520;
+		return t;
+	};
+	_proto._Image54_i = function () {
+		var t = new eui.Image();
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "page1_2_json.p1_text3_17_png";
+		t.visible = false;
+		t.width = 424;
+		t.x = 86.73;
+		t.y = -520;
+		return t;
+	};
+	_proto._Image55_i = function () {
+		var t = new eui.Image();
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "page1_2_json.p1_text3_18_png";
+		t.visible = false;
+		t.x = 72.73;
+		t.y = -520;
+		return t;
+	};
+	_proto._Image56_i = function () {
+		var t = new eui.Image();
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "page1_2_json.p1_text3_19_png";
+		t.visible = false;
+		t.x = 73.73;
+		t.y = -520;
+		return t;
+	};
+	_proto.txtGroup4_i = function () {
+		var t = new eui.Group();
+		this.txtGroup4 = t;
+		t.anchorOffsetX = 0;
+		t.anchorOffsetY = 0;
+		t.height = 62.79;
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.visible = false;
+		t.width = 640;
+		t.x = 37.269999999999996;
+		t.y = -2277;
+		return t;
+	};
+	_proto._Image57_i = function () {
 		var t = new eui.Image();
 		t.horizontalCenter = 0;
 		t.scaleX = 1;
@@ -1591,7 +1626,7 @@ window.skins={};
 		t.y = -3136;
 		return t;
 	};
-	_proto._Image45_i = function () {
+	_proto._Image58_i = function () {
 		var t = new eui.Image();
 		t.horizontalCenter = 0;
 		t.scaleX = 1;
@@ -1738,7 +1773,7 @@ window.skins={};
 		t.y = -3040;
 		return t;
 	};
-	_proto._Image46_i = function () {
+	_proto._Image59_i = function () {
 		var t = new eui.Image();
 		t.anchorOffsetX = 0;
 		t.anchorOffsetY = 0;
@@ -1762,4 +1797,26 @@ window.skins={};
 		return t;
 	};
 	return page1Skin;
+})(eui.Skin);generateEUI.paths['resource/myPage/page2.exml'] = window.page2Skin = (function (_super) {
+	__extends(page2Skin, _super);
+	function page2Skin() {
+		_super.call(this);
+		this.skinParts = [];
+		
+		this.height = 1136;
+		this.width = 640;
+		this.elementsContent = [this._Image1_i()];
+	}
+	var _proto = page2Skin.prototype;
+
+	_proto._Image1_i = function () {
+		var t = new eui.Image();
+		t.height = 1136;
+		t.source = "bg_4_jpg";
+		t.width = 640;
+		t.x = 0;
+		t.y = 0;
+		return t;
+	};
+	return page2Skin;
 })(eui.Skin);

@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,bg3_jpg,page1_1_json,playerqixing_png,playerqixing_json,bgmusic_mp3,page1_2_json,bg1_jpg,page2_1_png,page2_1_json,circle_json",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,bg3_jpg,page1_1_json,playerqixing_png,playerqixing_json,bgmusic_mp3,page1_2_json,bg1_jpg,page2_1_png,page2_1_json,circle_json,chuansuo_205_jpg,chuansuo_206_jpg,chuansuo_207_jpg,chuansuo_208_jpg,chuansuo_209_jpg,chuansuo_210_jpg,chuansuo_211_jpg,chuansuo_212_jpg,chuansuo_213_jpg,chuansuo_214_jpg,chuansuo_215_jpg,chuansuo_216_jpg,chuansuo_217_jpg,chuansuo_218_jpg,chuansuo_219_jpg,bg_4_jpg",
 			"name": "preload"
 		},
 		{
@@ -224,6 +224,86 @@
 			"type": "sheet",
 			"name": "circle_json",
 			"subkeys": "circle0_11_png,circle0_13_png,circle0_14_png,circle0_15_png,circle0_16_png,circle0_17_png,circle0_18_png,circle0_1_png,circle0_2_png,circle0_3_png,circle0_4_png,circle0_5_png,circle0_6_png,circle0_7_png,circle0_8_png,circle0_9_png,circle0_bg_png,circle0_msk_png"
+		},
+		{
+			"name": "chuansuo_205_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_205.jpg"
+		},
+		{
+			"name": "chuansuo_206_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_206.jpg"
+		},
+		{
+			"name": "chuansuo_207_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_207.jpg"
+		},
+		{
+			"name": "chuansuo_208_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_208.jpg"
+		},
+		{
+			"name": "chuansuo_209_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_209.jpg"
+		},
+		{
+			"name": "chuansuo_210_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_210.jpg"
+		},
+		{
+			"name": "chuansuo_211_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_211.jpg"
+		},
+		{
+			"name": "chuansuo_212_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_212.jpg"
+		},
+		{
+			"name": "chuansuo_213_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_213.jpg"
+		},
+		{
+			"name": "chuansuo_214_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_214.jpg"
+		},
+		{
+			"name": "chuansuo_215_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_215.jpg"
+		},
+		{
+			"name": "chuansuo_216_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_216.jpg"
+		},
+		{
+			"name": "chuansuo_217_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_217.jpg"
+		},
+		{
+			"name": "chuansuo_218_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_218.jpg"
+		},
+		{
+			"name": "chuansuo_219_jpg",
+			"type": "image",
+			"url": "chuansuo/chuansuo_219.jpg"
+		},
+		{
+			"name": "bg_4_jpg",
+			"type": "image",
+			"url": "bg/bg_4.jpg"
 		}
 	]
 }

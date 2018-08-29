@@ -13,7 +13,8 @@
 		"eui.VScrollBar": "resource/eui_skins/VScrollBarSkin.exml",
 		"eui.VSlider": "resource/eui_skins/VSliderSkin.exml",
 		"eui.ItemRenderer": "resource/eui_skins/ItemRendererSkin.exml",
-		"page1": "resource/myPage/page1.exml"
+		"page1": "resource/myPage/page1.exml",
+		"page2": "resource/myPage/page2.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
@@ -30,7 +31,8 @@
 		"resource/eui_skins/ToggleSwitchSkin.exml",
 		"resource/eui_skins/VScrollBarSkin.exml",
 		"resource/eui_skins/VSliderSkin.exml",
-		"resource/myPage/page1.exml"
+		"resource/myPage/page1.exml",
+		"resource/myPage/page2.exml"
 	],
 	"path": "resource/default.thm.json"
 }
