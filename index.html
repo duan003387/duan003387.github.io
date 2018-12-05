@@ -260,7 +260,7 @@
 	        djhk.style.left = tishi.offsetWidth/2-djhk.offsetWidth/2+'px';
 	        djwz.style.fontSize = djhk.offsetHeight/2+'px';
 	        djwz.style.lineHeight = djhk.offsetHeight+'px';
-	        document.body.addEventListener('touchend',touchbody);
+	        document.body.addEventListener('touchstart',touchbody);
 		}
 		
 		
@@ -279,7 +279,7 @@
 	        djhk.style.left = tishi.offsetWidth/2-djhk.offsetWidth/2+'px';
 	        djwz.style.fontSize = djhk.offsetHeight/2+'px';
 	        djwz.style.lineHeight = djhk.offsetHeight+'px';
-	        document.body.addEventListener('touchend',touchbody);
+	        document.body.addEventListener('touchstart',touchbody);
 	    }
 	    
 	    var fin_tim = null;
@@ -407,7 +407,7 @@
 	        timer = setInterval(fall, speed);
 	        bgmc.currentTime = 0;
 	        bgmc.play();
-	        document.body.addEventListener('touchend',touchbody);
+	        document.body.addEventListener('touchstart',touchbody);
 		}
 	
 	    
@@ -416,8 +416,7 @@
 	    //点击事件响应函数
 	    function touchbody(e){
 			var e=e||window.event;
-			gaof.innerText = e.target.id;
-	//  	console.log(e.path)
+
 	//		window.event? window.event.cancelBubble = true : e.stopPropagation();
 	    	if(start && e.target.id == 'heikuai' ){
 	    		start = false;
@@ -595,7 +594,7 @@
 	            redk();
 	            tis_zd.style.display = 'none';
 	            //移除点击监听
-	        	document.body.removeEventListener('touchend',touchbody);
+	        	document.body.removeEventListener('touchstart',touchbody);
 	        	//停止音乐
 	        	bgmc.pause();
 	            return;
@@ -962,7 +961,7 @@
 	            //停止音乐
 				bgmc.pause();
 				//移除点击监听
-	        	document.body.removeEventListener('touchend',touchbody);
+	        	document.body.removeEventListener('touchstart',touchbody);
 				return;
 	        }
 	    }
