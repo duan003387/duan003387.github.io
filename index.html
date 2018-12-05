@@ -418,28 +418,28 @@
 			gaof.innerText = e.target.id;
 	//  	console.log(e.path)
 	//		window.event? window.event.cancelBubble = true : e.stopPropagation();
-	    	if(start && e.path[0].id == 'heikuai' ){
+	    	if(start && e.target.id == 'heikuai' ){
 	    		start = false;
 	    		console.log(bgmc.paused);
 	    		if(bgmc.paused){
 	    			bgmc.play();
 	    			bgmc.muted = false;
 	    		}
-	    		touchhk(e.path[0]);
+	    		touchhk(e.target);
 	    		
-	    	}else if( (e.path[0].id).indexOf('hei')!=-1 ){
+	    	}else if( (e.target.id).indexOf('hei')!=-1 ){
 	//  		console.log(e.path[0])
-	    		judge(e.path[0]);
+	    		judge(e.target);
 	    		if(tishi.parentElement){
 					tishi.parentElement.removeChild(tishi);
 				}
-	    	}else if( (e.path[0].id).indexOf('chang')!=-1 && once){
+	    	}else if( (e.target.id).indexOf('chang')!=-1 && once){
 	    		once = false;
 	    		tcchang();
 	    	}else{
 	    		if(!start){
 	//  			console.log(e.path[0])
-	    			judge(e.path[0]);
+	    			judge(e.target);
 	    		}
 	//  		if(tishi.parentElement){
 	//				tishi.parentElement.removeChild(tishi);
