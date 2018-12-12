@@ -1,0 +1,30 @@
+{
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    {
+      "path": "src/ui/LoseUISkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"LoseUISkin\" xmlns:e=\"http://ns.egret.com/eui\">\n\t<e:Image source=\"lose\" x=\"0\" y=\"0\"/>\n\t<e:Image source=\"tuichuBtn\" id=\"tuichuBtn\" bottom=\"40\" left=\"120\" width=\"104\"/>\n\t<e:Image source=\"jixuBtn\" id=\"jixuBtn\" bottom=\"40\" right=\"120\"/>\n</e:Skin>"
+    },
+    {
+      "path": "src/ui/PromptWordUISkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"PromptWordUISkin\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\">\n\t<e:Image source=\"messagebg\" x=\"0\" y=\"0\"/>\n\t<e:Image id=\"word\"/>\n</e:Skin>"
+    },
+    {
+      "path": "src/ui/TableUISkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"TableUISkin\" width=\"1440\" height=\"900\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" xmlns:ns1=\"*\" >\n\t<e:Image id=\"tableBG\" source=\"bg2\" x=\"0\" y=\"0\"/>\n\t<e:Image y=\"64\" id=\"ganImg0\" x=\"49\" source=\"gan2\"/>\n\t<e:Image id=\"ganImg1\" y=\"55\" x=\"1369\" source=\"gan2\"/>\n\t<e:Group id=\"chatGroup\" height=\"101\" width=\"247\" x=\"1100\" y=\"730\">\n\t\t<e:Label id=\"chatLabel\" x=\"0\" width=\"247\" bottom=\"0\" size=\"21\"/>\n\t</e:Group>\n\t<e:EditableText id=\"chatText\" width=\"213\" height=\"31\" x=\"1106\" y=\"839\" size=\"24\"/>\n\t<e:Image id=\"sendChat\" source=\"sendon\" x=\"1326\" y=\"837\"/>\n\t<e:Image id=\"downIcon\" x=\"1351\" y=\"820\" source=\"downIcon\" anchorOffsetY=\"14\"/>\n\t<e:Group id=\"timeGroup\" left=\"0\" right=\"0\" top=\"0\" bottom=\"0\">\n\t\t<e:Image source=\"seconds\" x=\"609\" y=\"738\"/>\n\t\t<e:Image id=\"leftNumImg\" x=\"666\" y=\"785\" source=\"num6\"/>\n\t\t<e:Image id=\"rightNumImg\" x=\"702\" y=\"785\" source=\"num3\"/>\n\t</e:Group>\n\t<e:Label id=\"leftLabel\" text=\"等待确认花色\" x=\"847\" y=\"742\" textColor=\"0xC5BBBB\"/>\n\t<e:Label id=\"rightLabel\" text=\"等待确认花色\" x=\"363\" y=\"741\" textColor=\"0xC5BBBB\"/>\n\t<e:Image id=\"lidudi\" source=\"lidudi\" x=\"25\" y=\"811\"/>\n\t<e:Image id=\"lidu\" x=\"28\" y=\"813\" source=\"lidu1\"/>\n\t<e:Label id=\"liduLabel\" verticalCenter=\"304\" left=\"161\" fontFamily=\"黑体\"/>\n\t<e:Group id=\"smallGroup\" height=\"140\" width=\"288\" x=\"309\" y=\"732\">\n\t\t<e:Image id=\"ball1\" source=\"1s\" x=\"14\" y=\"9\"/>\n\t\t<e:Image id=\"ball2\" source=\"2s\" x=\"52\" y=\"9\"/>\n\t\t<e:Image id=\"ball3\" source=\"3s\" x=\"89\" y=\"9\"/>\n\t\t<e:Image id=\"ball4\" source=\"4s\" x=\"127\" y=\"9\"/>\n\t\t<e:Image id=\"ball5\" source=\"5s\" x=\"165\" y=\"9\"/>\n\t\t<e:Image id=\"ball6\" source=\"6s\" x=\"203\" y=\"9\"/>\n\t\t<e:Image id=\"ball7\" source=\"7s\" x=\"241\" y=\"9\"/>\n\t\t<e:Image id=\"ball8\" source=\"8s\" x=\"237\" y=\"79\"/>\n\t</e:Group>\n\t<e:Group id=\"bigGroup\" x=\"795\" width=\"288\" y=\"732\" height=\"140\">\n\t\t<e:Image id=\"ball9\" source=\"9s\" x=\"14\" y=\"9\"/>\n\t\t<e:Image id=\"ball10\" source=\"10s\" x=\"51\" y=\"9\"/>\n\t\t<e:Image id=\"ball11\" source=\"11s\" x=\"88\" y=\"9\"/>\n\t\t<e:Image id=\"ball12\" source=\"12s\" x=\"125\" y=\"9\"/>\n\t\t<e:Image id=\"ball13\" source=\"13s\" x=\"165\" y=\"9\"/>\n\t\t<e:Image id=\"ball14\" source=\"14s\" x=\"203\" y=\"9\"/>\n\t\t<e:Image id=\"ball15\" source=\"15s\" x=\"240\" y=\"9\"/>\n\t\t<e:Image id=\"ball16\" source=\"8s\" x=\"236\" y=\"80\"/>\n\t</e:Group>\n\t<e:Image id=\"leftTurn\" source=\"turn\" x=\"300\" y=\"717\"/>\n\t<e:Image id=\"rightTurn\" source=\"turn\" y=\"717\" x=\"786\"/>\n\t<e:Image id=\"tipsBtn1\" source=\"gantanhao\" x=\"578\" y=\"834\"/>\n\t<e:Image id=\"tipsBtn2\" source=\"gantanhao\" y=\"834\" x=\"1064\"/>\n</e:Skin>"
+    },
+    {
+      "path": "src/ui/TipsUISkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"TipsUISkin\" width=\"212\" height=\"58\" xmlns:e=\"http://ns.egret.com/eui\">\n\t<e:Image source=\"tipsIcon\" x=\"0\" y=\"0\"/>\n\t<e:Label text=\"打完自己花色所有球，打进黑8胜利，反之失败。\" x=\"2\" y=\"4\" width=\"206\" height=\"51\" size=\"18\" fontFamily=\"黑体\" verticalAlign=\"middle\" textAlign=\"center\"/>\n</e:Skin>"
+    },
+    {
+      "path": "src/ui/WinUISkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"WinUISkin\" xmlns:e=\"http://ns.egret.com/eui\" xmlns:w=\"http://ns.egret.com/wing\" width=\"546\" height=\"469\">\n\t<e:Image source=\"win\" x=\"0\" y=\"0\"/>\n\t<e:Image id=\"tuichuBtn\" source=\"tuichuBtn\" y=\"381\" left=\"120\"/>\n\t<e:Image id=\"jixuBtn\" source=\"jixuBtn\" y=\"381\" right=\"120\" width=\"104\"/>\n\t<e:CheckBox label=\"复选框\" x=\"270\" y=\"276\"/>\n</e:Skin>"
+    },
+    {
+      "path": "src/ui/wwwSkin.exml",
+      "content": "<?xml version='1.0' encoding='utf-8'?>\n<e:Skin class=\"wwwSkin\" xmlns:e=\"http://ns.egret.com/eui\">\n</e:Skin>"
+    }
+  ],
+  "skins": {}
+}
