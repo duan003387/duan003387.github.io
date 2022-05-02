@@ -1,28 +1,29 @@
-window.boot = function () {
+window.boot = function() {
     var settings = window._CCSettings;
     window._CCSettings = undefined;
     var onProgress = null;
-    
-    let { RESOURCES, INTERNAL, MAIN, START_SCENE } = cc.AssetManager.BuiltinBundleName;
-    function setLoadingDisplay () {
-        // Loading splash scene
-        var splash = document.getElementById('splash');
-        var progressBar = splash.querySelector('.progress-bar span');
-        onProgress = function (finish, total) {
-            var percent = 100 * finish / total;
-            if (progressBar) {
-                progressBar.style.width = percent.toFixed(2) + '%';
-            }
-        };
-        splash.style.display = 'block';
-        progressBar.style.width = '0%';
 
-        cc.director.once(cc.Director.EVENT_AFTER_SCENE_LAUNCH, function () {
-            splash.style.display = 'none';
+    let { RESOURCES, INTERNAL, MAIN, START_SCENE } = cc.AssetManager.BuiltinBundleName;
+
+    function setLoadingDisplay() {
+        // Loading splash scene
+        // var splash = document.getElementById('splash');
+        // var progressBar = splash.querySelector('.progress-bar span');
+        // onProgress = function (finish, total) {
+        //     var percent = 100 * finish / total;
+        //     if (progressBar) {
+        //         progressBar.style.width = percent.toFixed(2) + '%';
+        //     }
+        // };
+        // splash.style.display = 'block';
+        // progressBar.style.width = '0%';
+
+        cc.director.once(cc.Director.EVENT_AFTER_SCENE_LAUNCH, function() {
+            // splash.style.display = 'none';
         });
     }
 
-    var onStart = function () {
+    var onStart = function() {
 
         cc.view.enableRetina(true);
         cc.view.resizeWithBrowserSize(true);
@@ -34,8 +35,7 @@ window.boot = function () {
         if (cc.sys.isMobile) {
             if (settings.orientation === 'landscape') {
                 cc.view.setOrientation(cc.macro.ORIENTATION_LANDSCAPE);
-            }
-            else if (settings.orientation === 'portrait') {
+            } else if (settings.orientation === 'portrait') {
                 cc.view.setOrientation(cc.macro.ORIENTATION_PORTRAIT);
             }
             cc.view.enableAutoFullScreen([
@@ -56,12 +56,12 @@ window.boot = function () {
         }
 
         var launchScene = settings.launchScene;
-        var bundle = cc.assetManager.bundles.find(function (b) {
+        var bundle = cc.assetManager.bundles.find(function(b) {
             return b.getSceneInfo(launchScene);
         });
-        
+
         bundle.loadScene(launchScene, null, onProgress,
-            function (err, scene) {
+            function(err, scene) {
                 if (!err) {
                     cc.director.runSceneImmediate(scene);
                     if (cc.sys.isBrowser) {
@@ -89,18 +89,19 @@ window.boot = function () {
         collisionMatrix: settings.collisionMatrix,
     };
 
-    cc.assetManager.init({ 
+    cc.assetManager.init({
         bundleVers: settings.bundleVers,
         remoteBundles: settings.remoteBundles,
         server: settings.server
     });
-    
+
     let bundleRoot = [INTERNAL, MAIN];
     settings.hasStartSceneBundle && bundleRoot.push(START_SCENE);
     settings.hasResourcesBundle && bundleRoot.push(RESOURCES);
 
     var count = 0;
-    function cb (err) {
+
+    function cb(err) {
         if (err) return console.error(err.message, err.stack);
         count++;
         if (count === bundleRoot.length + 1) {
@@ -108,7 +109,7 @@ window.boot = function () {
         }
     }
 
-    cc.assetManager.loadScript(settings.jsList.map(function (x) { return 'src/' + x;}), cb);
+    cc.assetManager.loadScript(settings.jsList.map(function(x) { return 'src/' + x; }), cb);
 
     for (let i = 0; i < bundleRoot.length; i++) {
         cc.assetManager.loadBundle(bundleRoot[i], cb);
@@ -118,15 +119,14 @@ window.boot = function () {
 if (window.jsb) {
     var isRuntime = (typeof loadRuntime === 'function');
     if (isRuntime) {
-        require('src/settings.js');
+        require('src/settings.f8255.js');
         require('src/cocos2d-runtime.js');
         if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
             require('src/physics.js');
         }
         require('jsb-adapter/engine/index.js');
-    }
-    else {
-        require('src/settings.js');
+    } else {
+        require('src/settings.f8255.js');
         require('src/cocos2d-jsb.js');
         if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
             require('src/physics.js');
