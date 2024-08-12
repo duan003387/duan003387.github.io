@@ -1,0 +1,1 @@
+[1,0,0,[["cc.TextAsset",["_name","text"],1]],[[0,0,1,3]],[[0,"bossskill","﻿技能id,技能cd,技能距离,技能类型1晕眩2击退3buff4击飞,buff加成,技能伤害系数,击飞高度,击退距离,施法时间\r\nskillid,cd,skillrange,effectType,buffnum,skillnum,strikefly,repel,casttime\r\n1,6,8,2,,10,,8,1\r\n2,6,8,4,,10,6,,1\r\n3,8,20,3,2,,,,1\r\n"]],0,0,[],[],[]]
