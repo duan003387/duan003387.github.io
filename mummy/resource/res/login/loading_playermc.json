@@ -1,0 +1,40 @@
+{"mc":{
+	"loadingPlayer":{
+		"frameRate":10,
+		"labels":[
+			{"name":"loadingPlayer","frame":1,"end":4}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"right1",
+			"x":8,
+			"y":1
+			},
+			{
+			"res":"right2",
+			"x":8,
+			"y":2
+			},
+			{
+			"res":"right3",
+			"x":8,
+			"y":1
+			},
+			{
+			"res":"right4",
+			"x":8,
+			"y":2
+			}
+			]
+}},
+	"res":{
+		"right1":{"x":1,"y":1,"w":28,"h":36},
+		"right2":{"x":1,"y":39,"w":28,"h":35},
+		"right3":{"x":31,"y":1,"w":28,"h":36},
+		"right4":{"x":31,"y":39,"w":28,"h":35}
+	}}
