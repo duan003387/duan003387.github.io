@@ -33,28 +33,28 @@ class TableManager {
     mergeAndSum(tableId) {
         const table = this.tables[tableId];
         if (!table) return;
-    
+
         const mergeColIndex = parseInt(document.getElementById(`${tableId}MergeCol`).value);
         const sumColIndex = parseInt(document.getElementById(`${tableId}SumCol`).value);
-    
+
         if (isNaN(mergeColIndex) || isNaN(sumColIndex)) {
             alert('请选择要合并和求和的列');
             return;
         }
-    
+
         const data = table.getData();
         const headers = data[0];
         const mergedData = new Map();
-    
+
         // 从第二行开始处理数据（跳过表头），只处理合并列有值的数据
         for (let i = 1; i < data.length; i++) {
             const row = data[i];
             const mergeKey = row[mergeColIndex];
-            
+
             // 只处理合并列有值的数据
             if (mergeKey) {
                 const sumValue = parseFloat(row[sumColIndex]) || 0;
-    
+
                 if (mergedData.has(mergeKey)) {
                     mergedData.get(mergeKey).sum += sumValue;
                 } else {
@@ -65,26 +65,30 @@ class TableManager {
                 }
             }
         }
-    
+
         // 构建新数据
         const newData = [headers];
         let totalSum = 0;
-    
+
         mergedData.forEach((value, key) => {
             const newRow = [...value.row];
             newRow[sumColIndex] = value.sum;
             totalSum += value.sum;
             newData.push(newRow);
         });
-    
+
         // 显示结果
         const resultElement = document.getElementById(`${tableId}SumResult`);
         resultElement.textContent = `总和: ${totalSum.toFixed(2)}`;
-    
+
         // 更新表格
         this.initializeTable(newData, tableId);
+
+        this[`totalSum${tableId}`] = totalSum;
     }
-    
+
+    totalSumtable1 = 0;
+    totalSumtable2 = 0;
 
 
     initializeHandlers() {
@@ -317,44 +321,44 @@ class TableManager {
         }
 
         // 创建新的合并数据
-    const mergedData = [
-        ['订单号', '拍单金额', '结算金额', '利润']
-    ];
+        const mergedData = [
+            ['订单号', '拍单金额', '结算金额', '利润']
+        ];
 
-    let totalSum = 0;
-    let totalValue1 = 0;
-    let totalValue2 = 0;
+        let totalSum = 0;
+        let totalValue1 = 0;
+        let totalValue2 = 0;
 
-    orderMap.forEach((values, orderId) => {
-        const value1 = values.value1 || 0;
-        const value2 = values.value2 || 0;
-        const profit = value2 - value1;
-        
+        orderMap.forEach((values, orderId) => {
+            const value1 = values.value1 || 0;
+            const value2 = values.value2 || 0;
+            const profit = value2 - value1;
+
+            mergedData.push([
+                orderId,
+                value1,
+                value2,
+                profit
+            ]);
+
+            totalValue1 += value1;
+            totalValue2 += value2;
+            totalSum += profit;
+        });
+
+        // 添加总计行
         mergedData.push([
-            orderId,
-            value1,
-            value2,
-            profit
+            '总计',
+            this.totalSumtable1,
+            this.totalSumtable2,
+            this.totalSumtable2 - this.totalSumtable1
         ]);
-        
-        totalValue1 += value1;
-        totalValue2 += value2;
-        totalSum += profit;
-    });
 
-    // 添加总计行
-    mergedData.push([
-        '总计',
-        totalValue1,
-        totalValue2,
-        totalSum
-    ]);
-
-    // 创建并导出Excel
-    const wb = XLSX.utils.book_new();
-    const ws = XLSX.utils.aoa_to_sheet(mergedData);
-    XLSX.utils.book_append_sheet(wb, ws, '利润');
-    XLSX.writeFile(wb, '利润表.xlsx');
+        // 创建并导出Excel
+        const wb = XLSX.utils.book_new();
+        const ws = XLSX.utils.aoa_to_sheet(mergedData);
+        XLSX.utils.book_append_sheet(wb, ws, '利润');
+        XLSX.writeFile(wb, '利润表.xlsx');
     }
 }
 
