@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container-fluid {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.toolbar {
+    padding: 10px;
+    background: #f8f9fa;
+    flex: 0 0 auto;
+}
+
+.file-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.sum-controls {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background: #fff;
+    flex: 0 0 auto;
+    align-items: flex-start;
+}
+
+.table-controls {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+.export-control {
+    margin-left: auto;
+    padding-top: 24px;
+}
+
+.tables-container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex: 1;
+    min-height: 0;
+}
+
+.table-wrapper {
+    flex: 1;
+    height: 100%;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.sum-result {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #e9ecef;
+    border-radius: 3px;
+    font-weight: bold;
+}
